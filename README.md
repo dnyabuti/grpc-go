@@ -38,7 +38,7 @@ protoc -I/usr/local/include -I. \
 
 ### Running
 
-The [entrypoint][entry.go] has been provided. Assuming your server is already running on port 50051, run the following command
+The [entrypoint](entry.go) has been provided. Assuming your server is already running on port 50051, run the following command
 
 `go run entry.go`
 
