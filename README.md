@@ -27,7 +27,7 @@ protoc -I/usr/local/include -I. \
   ./blog/blog.proto
 ```
 
-* (Optionam) Generate Swagger
+* (Optional) Generate Swagger
 ```
 protoc -I/usr/local/include -I. \
   -I$GOPATH/src \
